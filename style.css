@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #f7c6d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.emoji {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 15px 0 25px;
+}
+
+.buttons {
+  position: relative;
+  height: 60px;
+}
+
+button {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.yes {
+  background: #ff4d6d;
+  color: white;
+  margin-right: 80px;
+}
+
+.no {
+  position: absolute;
+  left: 180px;
+  background: #eee;
+}
+
+.hint {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.meme {
+  display: block;
+  width: 85%;          /* make it bigger (try 90% if you want more) */
+  max-width: 600px;    /* prevents it from getting TOO huge */
+  margin: 120px;   /* centers it horizontally */
+  border-radius: 16px;
+}
